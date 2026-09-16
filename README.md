@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.mookto.com/mookto.png" alt="Mookto Technologies Logo" width="150">
+  <img src="https://mookto.com/assets/img/logo.png" alt="Mookto Technologies Logo" width="150">
 </p>
 
 <h1 align="center">Mookto Technologies Activation Center</h1>
@@ -25,6 +25,10 @@
 > This script and documentation are strictly for **Mookto Technologies** office and global online staff usage. We use our own bulk license to facilitate one-click activation across full company hardware. If you are not a staff member of our company, do not use this.  
 > 🌐 **Company Website:** [https://mookto.com/](https://mookto.com/)
 
+> [!NOTE]
+> 💙 **Special Note for New Staff:**  
+> This tool is specifically provided for new team members who may not currently have the funds to purchase an official Windows license right away. You are welcome to use this temporary activation to get your workstation ready for work. Once you receive your salary, please make sure to purchase an official Microsoft license. ❤️❤️❤️
+
 <br>
 
 <a id="english"></a>
@@ -47,10 +51,6 @@ Choose one of the officially supported enterprise deployment methods below:
 > - Some ISPs/DNS providers block access to activation domains. You can bypass this by enabling [DNS-over-HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/encrypted-dns-browsers/) in your browser.
 > - **Having trouble?** Contact internal IT support via [https://mookto.com/](https://mookto.com/).
 
-> [!NOTE]
-> - The `irm` command in PowerShell downloads a script from a specified URL, and the `iex` command executes it.
-> - Always double-check the URL before executing the command and verify the source is trustworthy.
-
 <br>
 
 <div align="center">
@@ -64,6 +64,10 @@ Choose one of the officially supported enterprise deployment methods below:
 
 <a id="bangla"></a>
 ## 🇧🇩 বাংলা সংস্করণ (Bangla Version)
+
+> [!NOTE]
+> 💙 **নতুন কর্মীদের জন্য বিশেষ বার্তা:**  
+> এই সুবিধাটি মূলত আমাদের সেই সকল নতুন কর্মীদের জন্য দেওয়া হয়েছে, যাদের বর্তমানে অফিশিয়াল উইন্ডোজ লাইসেন্স কেনার মতো পর্যাপ্ত বাজেট নেই। কাজ শুরু করার সুবিধার্থে আপনি এই সাময়িক অ্যাক্টিভেশন ব্যবহার করতে পারেন। পরবর্তীতে বেতন পাওয়ার পর অনুগ্রহ করে অফিশিয়াল লাইসেন্স ক্রয় করে নেবেন। ❤️❤️❤️
 
 ### 🚀 কীভাবে উইন্ডোজ / অফিস / ইএসইউ (ESU) অ্যাক্টিভ করবেন?
 
@@ -81,10 +85,6 @@ Choose one of the officially supported enterprise deployment methods below:
 > 💡 **সমস্যা সমাধান (Troubleshooting):**
 > - কিছু আইএসপি (ISP) বা ডিএনএস সার্ভিস ডোমেন ব্লক করে থাকে। ব্রাউজারে [DNS-over-HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/encrypted-dns-browsers/) সক্রিয় করে এটি বাইপাস করতে পারেন।
 > - **কোনো সমস্যা হচ্ছে?** অভ্যন্তরীণ সহায়তার জন্য অফিশিয়াল ওয়েবসাইটে যোগাযোগ করুন: [https://mookto.com/](https://mookto.com/)।
-
-> [!NOTE]
-> - পাওয়ারশেলে `irm` কমান্ড স্ক্রিপ্ট ডাউনলোড করে এবং `iex` সেটি মেমরিতে এক্সিকিউট করে।
-> - কমান্ড চালানোর আগে ডোমেন ইউআরএল (URL) ঠিক আছে কিনা তা সবসময় যাচাই করে নিন।
 
 <br>
 
