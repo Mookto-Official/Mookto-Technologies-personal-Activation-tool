@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://mookto.com/assets/img/logo.png" alt="Mookto Technologies Logo" width="150">
+  <img src="https://mookto.com/mookto.png" alt="Mookto Technologies Logo" width="150">
 </p>
 
 <h1 align="center">Mookto Technologies Activation Center</h1>
