@@ -1,84 +1,94 @@
-<p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
+<p align="center">
+  <img src="https://www.mookto.com/mookto.png" alt="Mookto Technologies Logo" width="150">
+</p>
 
-<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
+<h1 align="center">Mookto Technologies Activation Center</h1>
 
-<p align="center">Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.</p>
+<p align="center">
+  <em>Internal enterprise utility for Mookto Technologies staff workstation provisioning.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Access-Staff%20Only-red?style=for-the-badge&logo=shield" alt="Restricted Access">
+  <img src="https://img.shields.io/badge/License-Bulk%20Volume%20Licensing-success?style=for-the-badge&logo=microsoft" alt="Volume Licensing">
+  <img src="https://img.shields.io/badge/Version-v3.12%20Enterprise-blue?style=for-the-badge" alt="Version">
+</p>
+
+<p align="center">
+  <kbd>&nbsp; <a href="#english">🇬🇧 English Version</a> &nbsp;</kbd> &nbsp;&nbsp;|&nbsp;&nbsp; <kbd>&nbsp; <a href="#bangla">🇧🇩 বাংলা সংস্করণ (Bangla)</a> &nbsp;</kbd>
+</p>
 
 <hr>
-  
-## How to Activate Windows / Office / Extended Security Updates (ESU)?
 
-### Method 1 - PowerShell ❤️
+> [!WARNING]
+> **RESTRICTED INTERNAL USE ONLY**  
+> This script and documentation are strictly for **Mookto Technologies** office and global online staff usage. We use our own bulk license to facilitate one-click activation across full company hardware. If you are not a staff member of our company, do not use this.  
+> 🌐 **Company Website:** [https://mookto.com/](https://mookto.com/)
 
-1. Click the **Start Menu**, type `PowerShell`, and open it.
+<br>
 
-2. Copy and paste the code below and press **Enter.**  
-   - For **Windows 8.1, 10 and 11**:
-     ```
-     irm https://get.activated.win | iex
-     ```
-	 If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):  
-	 ```
-	 iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
-	 ```
-	- **Script not launching? Use the below-listed Method 2.**
+<a id="english"></a>
+## 🇬🇧 English Version
 
-3. In the menu that appears, type the number corresponding to one of the **Green** options.
+### 🚀 How to Activate Windows / Office / Extended Security Updates (ESU)?
 
----
+Choose one of the officially supported enterprise deployment methods below:
 
-### Method 2 - Traditional (Windows Vista and later)
+| Method | Instructions | Priority |
+| :--- | :--- | :---: |
+| **Method 1**<br>*(PowerShell)* | **1.** Open the **Start Menu**, type `PowerShell`, and open it.<br>**2.** Copy and paste the command below and press **Enter**:<br><br><code>irm https://get.activated.win \| iex</code><br><br>**3.** In the menu that appears, type the number corresponding to one of the **Green** options. | ⭐ **Recommended** |
+| **Method 1B**<br>*(DNS / ISP Bypass)* | **1.** If Method 1 is blocked by your ISP/DNS, run this command (Requires Windows 10/11):<br><br><code>iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win \| Out-String)</code><br><br>**2.** Select your required **Green** activation option. | 🛡️ *Fallback* |
+| **Method 2**<br>*(Traditional File)* | **1.** Download the script package: [**MAS_AIO.cmd**](https://get.activated.win) or [**MAS_AIO.zip**](https://get.activated.win)<br>**2.** Right-click `MAS_AIO.cmd` and select **Run as Administrator**.<br>**3.** Select the **Green** option from the interactive menu. | 📁 *Offline* |
 
-1.   Download the script:
-      *   [**MAS_AIO.cmd**](https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?path=/MAS/All-In-One-Version-KL/MAS_AIO.cmd&download=true) (Direct script)
-      *   [**MAS_AIO.zip**](https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?$format=zip) (If the direct script is blocked by your browser)
-2.   Run the `MAS_AIO.cmd` file.
-3.   In the menu that appears, type the number corresponding to one of the **Green** options.
-
----
+<br>
 
 > [!TIP]
-> - Some ISPs/DNS providers block access to our domains. You can bypass this by enabling [DNS-over-HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/encrypted-dns-browsers/) in your browser. 
-> - **Having trouble**? Visit our [troubleshooting page](https://massgrave.dev/troubleshoot) or raise an issue on [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts/issues).
+> 💡 **Troubleshooting & Network Configuration:**
+> - Some ISPs/DNS providers block access to activation domains. You can bypass this by enabling [DNS-over-HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/encrypted-dns-browsers/) in your browser.
+> - **Having trouble?** Contact internal IT support via [https://mookto.com/](https://mookto.com/).
 
 > [!NOTE]
->
 > - The `irm` command in PowerShell downloads a script from a specified URL, and the `iex` command executes it.
-> - Always double-check the URL before executing the command and verify the source is trustworthy when manually downloading files.
-> - Be cautious of third parties spreading malware disguised as MAS by altering the URL in the PowerShell command.
+> - Always double-check the URL before executing the command and verify the source is trustworthy.
 
----
+<br>
 
 <div align="center">
-	
-### Homepage - [https://massgrave.dev/](https://massgrave.dev/)
-  
-[![1.1]][1]
-[![1.2]][2]
-[![1.3]][3]
-[![1.4]][4]
-[![1.5]][5]
-[![1.6]][6]
-[![1.7]][7]
+  <i>© 2026 Mookto Technologies. All rights reserved.</i><br>
+  <a href="#english">⬆ Back to Top</a>
+</div>
 
-[1.1]: https://massgrave.dev/img/logo_discord.png (Chat with us without signup)
-[1.2]: https://massgrave.dev/img/logo_reddit.png (Reddit)
-[1.3]: https://massgrave.dev/img/logo_bluesky.png (Bluesky)
-[1.4]: https://massgrave.dev/img/logo_x.png (Twitter)
+<br><br><br>
 
-[1.5]: https://massgrave.dev/img/logo_github.png (GitHub)
-[1.6]: https://massgrave.dev/img/logo_azuredevops.png (AzureDevOps)
-[1.7]: https://massgrave.dev/img/logo_gitea.png (Self-hosted Git)
+<hr>
 
-[1]: https://discord.gg/j2yFsV5ZVC
-[2]: https://www.reddit.com/r/MAS_Activator
-[3]: https://bsky.app/profile/massgrave.dev
-[4]: https://twitter.com/massgravel
-[5]: https://github.com/massgravel/Microsoft-Activation-Scripts
-[6]: https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts
-[7]: https://git.activated.win/Microsoft-Activation-Scripts
+<a id="bangla"></a>
+## 🇧🇩 বাংলা সংস্করণ (Bangla Version)
 
----
+### 🚀 কীভাবে উইন্ডোজ / অফিস / ইএসইউ (ESU) অ্যাক্টিভ করবেন?
 
-Latest Version: 3.12  
-Release date: 04-Jul-2026
+নিচের যেকোনো একটি অফিশিয়াল পদ্ধতি নির্বাচন করুন:
+
+| পদ্ধতি | নির্দেশনা | অগ্রাধিকার |
+| :--- | :--- | :---: |
+| **পদ্ধতি ১**<br>*(PowerShell)* | **১.** **Start Menu**-তে ক্লিক করুন, `PowerShell` লিখে এটি ওপেন করুন।<br>**২.** নিচের কোডটি কপি করে পেস্ট করুন এবং **Enter** চাপুন:<br><br><code>irm https://get.activated.win \| iex</code><br><br>**৩.** যে মেনুটি আসবে, সেখানে **সবুজ (Green)** অপশনগুলোর পাশের নম্বরটি টাইপ করুন। | ⭐ **সুপারিশকৃত** |
+| **পদ্ধতি ১বি**<br>*(DNS Bypass)* | **১.** আইএসপি (ISP) বা ডিএনএস দ্বারা ব্লকেড থাকলে এই বিকল্প কমান্ডটি ব্যবহার করুন (উইন্ডোজ ১০ বা ১১ প্রয়োজন):<br><br><code>iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win \| Out-String)</code><br><br>**২.** মেনু থেকে **সবুজ (Green)** অপশন নির্বাচন করুন। | 🛡️ *বিকল্প (Fallback)* |
+| **পদ্ধতি ২**<br>*(অফলাইন ফাইল)* | **১.** স্ক্রিপ্ট ডাউনলোড করুন: [**MAS_AIO.cmd**](https://get.activated.win) অথবা [**MAS_AIO.zip**](https://get.activated.win)<br>**২.** `MAS_AIO.cmd` ফাইলে রাইট-ক্লিক করে **Run as Administrator** নির্বাচন করুন।<br>**৩.** মেনু থেকে **সবুজ (Green)** নম্বরটি চেপে অ্যাক্টিভেট করুন। | 📁 *অফলাইন* |
+
+<br>
+
+> [!TIP]
+> 💡 **সমস্যা সমাধান (Troubleshooting):**
+> - কিছু আইএসপি (ISP) বা ডিএনএস সার্ভিস ডোমেন ব্লক করে থাকে। ব্রাউজারে [DNS-over-HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/encrypted-dns-browsers/) সক্রিয় করে এটি বাইপাস করতে পারেন।
+> - **কোনো সমস্যা হচ্ছে?** অভ্যন্তরীণ সহায়তার জন্য অফিশিয়াল ওয়েবসাইটে যোগাযোগ করুন: [https://mookto.com/](https://mookto.com/)।
+
+> [!NOTE]
+> - পাওয়ারশেলে `irm` কমান্ড স্ক্রিপ্ট ডাউনলোড করে এবং `iex` সেটি মেমরিতে এক্সিকিউট করে।
+> - কমান্ড চালানোর আগে ডোমেন ইউআরএল (URL) ঠিক আছে কিনা তা সবসময় যাচাই করে নিন।
+
+<br>
+
+<div align="center">
+  <i>© ২০২৬ মুক্ত টেকনোলজিস। সর্বস্বত্ব সংরক্ষিত।</i><br>
+  <a href="#bangla">⬆ উপরে যান</a>
+</div>
